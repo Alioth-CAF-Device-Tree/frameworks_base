@@ -11,6 +11,9 @@
     <!-- Whether Pixel props is enabled -->
     <java-symbol type="bool" name="config_enablePixelProps" />
 
+    <!-- Spoof GMS as Pixel Tablet -->
+    <java-symbol type="bool" name="config_spoofasTablet" />
+
     <!-- Build properties from a GMS certified device -->
     <java-symbol type="array" name="config_certifiedBuildProperties" />
 </resources>
